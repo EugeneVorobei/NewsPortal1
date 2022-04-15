@@ -1,0 +1,9 @@
+>>> from News_Portal.models import *
+
+>>> User.objects.create_user('username')
+>>> User.objects.create_user('usernam1e')
+
+>>> Category.objects.create(category_name='Спорт')
+>>> Category.objects.create(category_name='Политика')
+>>> Category.objects.create(category_name='Образование')
+>>> Category.objects.create(category_name='Медицина')
